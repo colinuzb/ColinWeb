@@ -4,7 +4,6 @@ import {
   Zap,
   Shield,
   Globe,
-  ChevronDown,
   ArrowRight,
   Play,
   Star,
@@ -90,7 +89,7 @@ function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 group">
-          <img src="/logo.png" alt="ColinUzb" className="w-10 h-10 rounded-xl object-cover transform group-hover:scale-110 transition-transform duration-300" />
+          <img src="./logo.png" alt="ColinUzb" className="w-10 h-10 rounded-xl object-cover transform group-hover:scale-110 transition-transform duration-300" />
           <span className="font-display font-bold text-xl text-white">ColinUzb</span>
         </a>
 
@@ -188,7 +187,7 @@ function HeroSection() {
       {/* Portrait reveal effect tied to the laser beam */}
       <img
         ref={revealImgRef}
-        src="/background.jpg"
+        src="./background.jpg"
         alt=""
         aria-hidden="true"
         className="absolute left-1/2 -translate-x-1/2 -top-1/4 w-full z-[1] pointer-events-none select-none"
@@ -385,11 +384,11 @@ function AboutSection() {
                   transform: `translateZ(-50px) translate(${mousePos.x * 0.5}px, ${mousePos.y * 0.5}px)`,
                 }}
               >
-                <img
-                  src="/logo.png"
+                <div className="Logo"><img
+                  src="./logo.png"
                   alt="Orqa qatlam"
                   className="w-full h-full object-cover opacity-40"
-                />
+                /></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-dark-900 to-transparent" />
               </div>
 
@@ -401,7 +400,7 @@ function AboutSection() {
                 }}
               >
                 <img
-                  src="/logo.png"
+                  src="./logo.png"
                   alt="O'rta qatlam"
                   className="w-full h-full object-cover opacity-60"
                 />
@@ -416,7 +415,7 @@ function AboutSection() {
                 }}
               >
                 <img
-                  src="/logo.png"
+                  src="./logo.png"
                   alt="Oldingi qatlam"
                   className="w-full h-full object-cover"
                 />
@@ -579,21 +578,21 @@ function TestimonialsSection() {
       quote: "Parallaks effektlar va tafsilotlarga e'tibor bizning kutganimizdan ham oshib ketdi. Yangi sayt ishga tushirilgandan so'ng konversiya darajamiz 40% ga oshdi.",
       author: "Marcos",
       role: "TechStart Inc. bosh direktori",
-      avatar: "/logo.png",
+      avatar: "./logo.png",
       rating: 5,
     },
     {
       quote: "Ushbu jamoa bilan ishlash juda yoqimli edi. Ular bizning tasavvurimizni uzluksiz 3D animatsiyalar bilan ajoyib voqelikka aylantirdilar.",
       author: "Jova",
       role: "DesignLab asoschisi",
-      avatar: "/logo.png",
+      avatar: "./logo.png",
       rating: 5,
     },
     {
       quote: "Ular erishgan chuqurlik va immersivlik hayratlanarli. Foydalanuvchilarimiz oldingi versiyaga qaraganda saytda ikki barobar ko'proq vaqt o'tkazishadi.",
       author: "Uz1 Games",
       role: "Creative Co. marketing direktori",
-      avatar: "/logo.png",
+      avatar: "./logo.png",
       rating: 5,
     },
   ];
@@ -726,7 +725,7 @@ function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-2">
             <a href="#" className="flex items-center gap-2 mb-6">
-              <img src="/logo.png" alt="ColinUzb" className="w-10 h-10 rounded-xl object-cover" />
+              <img src="./logo.png" alt="ColinUzb" className="w-10 h-10 rounded-xl object-cover" />
               <span className="font-display font-bold text-xl text-white">ColinUzb</span>
             </a>
             <p className="text-dark-400 max-w-sm">
