@@ -47,7 +47,7 @@ Bu yerda foydalanuvchilar:
 
 <p align="center">
 
-<img src="YOUR_PROJECT_GIF_HERE" width="900"/>
+<img src="1.png" width="900"/>
 
 </p>
 
